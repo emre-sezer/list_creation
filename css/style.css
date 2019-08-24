@@ -1,0 +1,60 @@
+
+
+body 
+{
+    background-image: linear-gradient(120deg,#3d3d3d,#17c0eb);
+    min-height:100vh;
+}
+
+
+.container
+{
+    padding:50px 0;
+}
+
+.txtListItem 
+{
+    width: 100%;
+    border:none;
+    border-bottom: 2px solid rgb(156, 137, 137);
+    background:none;
+   padding: 15px;
+   outline: none;
+   font-size: 18px;
+   color: #fff;
+}
+
+.txtListItem::placeholder
+{
+    color: #fff;
+}
+
+.notcomp h3,
+.comp h3 
+{
+    margin-top: 30px;
+    color: #fff;
+}
+
+.task 
+{
+    width:100%;
+    background:rgba(255,255,255,0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.task .icon 
+{
+    float:right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.comp .task 
+{
+    background:rgba(0,0,0,.5);
+    color:#fff;
+
+}
